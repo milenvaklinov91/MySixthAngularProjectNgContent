@@ -1,0 +1,11 @@
+<div class="card">
+  <ng-content select=".title"></ng-content>
+  <!-- This ng content is being replaced by htmp content in app.component.html -->
+  <p class="summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <ng-content select=".btn-more"></ng-content>
+</div>
+<!-- Using NG CONTENT we can pass some html content iside the component selector
+and when angular passes that html content it appears in place of NG CONENT directive!
+We use NG CONTENT when we want to insert the content dynamically inside the component -->
